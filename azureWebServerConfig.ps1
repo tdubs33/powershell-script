@@ -1,4 +1,6 @@
-﻿Import-Module "WebAdministration"
+Add-WindowsFeature web-server
+sleep 100
+Import-Module "WebAdministration"
 #Set up directories for web content
 New-Item c:\web\company.com\aspnet_client\system_web\1_1_4322 -type directory
 New-Item c:\web\company.com\aspnet_client\system_web\2_0_50727 -type directory
