@@ -59,4 +59,4 @@ Start-Website 'MainSite'
 Start-Sleep -s 5
 #Recycle IIS
 IISRESET
-echo "Our work here is done!"
+echo "config complete"
